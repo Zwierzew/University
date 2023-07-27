@@ -17,6 +17,11 @@ public class Lecturer extends Person {
         this.specialization =specialization;
         this.remuneration =remuneration;
     }
+    public Lecturer(String name, String address, String specialization, double remuneration){
+        super (name, address);
+        this.specialization = specialization;
+        this.remuneration = remuneration;
+    }
 
     @Override
     String showDetails(){
